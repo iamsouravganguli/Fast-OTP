@@ -1,4 +1,4 @@
-function gen() {
+function otpGen(limit) {
     // Get the current time in milliseconds
     const now = Date.now();
 
@@ -18,14 +18,13 @@ function gen() {
     const digits = num.toString().split('');
 
     // Take the first six digits and combine them into a new string
-    const newNum = digits.slice(0, 6).join('');
+    const newNum = digits.slice(0,limit).join('');
 
     // Convert the new string back to a number and log the result
     const generator = parseInt(newNum, 10);
     return generator;
 }
 
-const optgen = gen();
-export default optgen;
+export default otpGen;
 
-// console.log(optgen);
+// console.log(otpGen(10));
