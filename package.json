@@ -9,5 +9,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sourav Ganguli <mysganguli@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsouravganguli/Fast-OTP.git"
+  },
+  "keywords": [
+    "otp",
+    "password",
+    "random-number"
+  ],
+  "bugs": {
+    "url": "https://github.com/iamsouravganguli/Fast-OTP/issues"
+  },
+  "homepage": "https://github.com/iamsouravganguli/Fast-OTP#readme"
 }
