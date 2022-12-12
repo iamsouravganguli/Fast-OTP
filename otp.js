@@ -25,6 +25,6 @@ function otpGen(limit) {
     return generator;
 }
 
-export default otpGen;
+module.exports = otpGen;
 
-console.log(otpGen(10));
+// console.log(otpGen(10));
