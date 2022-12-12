@@ -1,4 +1,4 @@
-const otp = () => {
+function gen() {
     // Get the current time in milliseconds
     const now = Date.now();
 
@@ -25,5 +25,7 @@ const otp = () => {
     return generator;
 }
 
-const otpgen  =  otp()
-export default otpgen;
+const optgen = gen();
+export default optgen;
+
+// console.log(optgen);
