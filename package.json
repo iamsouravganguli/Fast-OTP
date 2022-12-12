@@ -3,6 +3,11 @@
   "version": "1.11.0",
   "description": "Best otp npm package",
   "main": "otp.js",
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "otp.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
