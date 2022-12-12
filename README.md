@@ -16,8 +16,10 @@ Install fast-otp with npm
 ```javascript
 
 import any_name from 'fast-otp'
+or
+const any_name = require("fast-otp")
 
-console.log(any_name)
+console.log(any_name(any_limit))
 ```
 
 
