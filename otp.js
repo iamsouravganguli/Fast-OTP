@@ -27,4 +27,4 @@ function otpGen(limit) {
 
 export default otpGen;
 
-// console.log(otpGen(10));
+console.log(otpGen(10));
