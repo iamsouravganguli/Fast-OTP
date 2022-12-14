@@ -1,5 +1,5 @@
 ## License Type
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/iamsouravganguli/Fast-OTP/blob/main/LICENSE)
 
 
 # How to use 🤔
