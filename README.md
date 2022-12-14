@@ -19,7 +19,10 @@ import any_name from 'fast-otp'
 or
 const any_name = require("fast-otp")
 
-console.log(any_name(any_limit))
+
+const variable_Name = any_name(6); // maximum limit of integer 12 
+
+console.log(variable_Name)
 ```
 
 
