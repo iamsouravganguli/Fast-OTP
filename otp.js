@@ -1,1 +1,30 @@
-function _0x2a31() { const _0x4239a3 = ['random', '49063EjHGUZ', 'split', '4174164ftqWPN', 'join', 'slice', '538712eLvUnU', '28630IPFLhY', '9QdhbVM', '842868IgOJPy', 'toString', '30luxVFo', '77kwyoaN', 'now', 'exports', '2NQwrYV', '440MagzBy', '472930fhNkXC', '331832XzOQhT']; _0x2a31 = function () { return _0x4239a3; }; return _0x2a31(); } function _0x4858(_0x281c35, _0x1b62ef) { const _0x2a3134 = _0x2a31(); return _0x4858 = function (_0x485853, _0x24509e) { _0x485853 = _0x485853 - 0x138; let _0x4c7d23 = _0x2a3134[_0x485853]; return _0x4c7d23; }, _0x4858(_0x281c35, _0x1b62ef); } const _0x2c1331 = _0x4858; (function (_0x5f42f8, _0x5f3ece) { const _0x1e52a4 = _0x4858, _0x5e1dbf = _0x5f42f8(); while (!![]) { try { const _0x276fbb = parseInt(_0x1e52a4(0x141)) / 0x1 * (parseInt(_0x1e52a4(0x13e)) / 0x2) + parseInt(_0x1e52a4(0x14a)) / 0x3 * (parseInt(_0x1e52a4(0x148)) / 0x4) + parseInt(_0x1e52a4(0x149)) / 0x5 * (-parseInt(_0x1e52a4(0x13a)) / 0x6) + -parseInt(_0x1e52a4(0x143)) / 0x7 * (-parseInt(_0x1e52a4(0x13f)) / 0x8) + -parseInt(_0x1e52a4(0x138)) / 0x9 + parseInt(_0x1e52a4(0x140)) / 0xa * (-parseInt(_0x1e52a4(0x13b)) / 0xb) + -parseInt(_0x1e52a4(0x145)) / 0xc; if (_0x276fbb === _0x5f3ece) break; else _0x5e1dbf['push'](_0x5e1dbf['shift']()); } catch (_0x46c66b) { _0x5e1dbf['push'](_0x5e1dbf['shift']()); } } }(_0x2a31, 0x4e2b5)); function otpGen(_0x48df91) { const _0x75b695 = _0x4858, _0xa9a458 = Date[_0x75b695(0x13c)](), _0x542c0f = Math[_0x75b695(0x142)]() * _0xa9a458, _0x58edd2 = Math['floor'](_0x542c0f * 0x186a0), _0x1c8b65 = _0x58edd2[_0x75b695(0x139)](), _0x5b40e6 = _0x1c8b65[_0x75b695(0x139)]()[_0x75b695(0x144)](''), _0x5debe6 = _0x5b40e6[_0x75b695(0x147)](0x0, _0x48df91)[_0x75b695(0x146)](''), _0xef9b93 = parseInt(_0x5debe6, 0xa); return _0xef9b93; } module[_0x2c1331(0x13d)] = otpGen;
+function otpGen(limit) {
+    // Get the current time in milliseconds
+    const now = Date.now();
+
+    // Generate a random number based on the current time
+    const rand = Math.random() * now;
+
+    // Multiply the random number by 100000 to get a six-digit integer
+    const otp = Math.floor(rand * 100000);
+
+    // Convert the OTP to a string and log it
+    // console.log(otp.toString());
+
+    // Define a 12-digit number to convert
+    const num = otp.toString();
+
+    // Convert the number to a string and split it into an array of characters
+    const digits = num.toString().split('');
+
+    // Take the first six digits and combine them into a new string
+    const newNum = digits.slice(0,limit).join('');
+
+    // Convert the new string back to a number and log the result
+    const generator = parseInt(newNum, 10);
+    return generator;
+}
+
+module.exports = otpGen;
+
+// console.log(otpGen(10));
