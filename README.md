@@ -26,6 +26,7 @@ const variable_Name = any_name(6); // maximum limit of integer 12
 
 console.log(variable_Name)
 ```
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://ko-fi.com/iamsouravganguli)
 
 
 
