@@ -1,6 +1,6 @@
 {
   "name": "fast-otp",
-  "version": "1.18.0",
+  "version": "1.19.0",
   "description": "lightweight and easy to use otp npm package",
   "main": "otp.js",
   "files": [
