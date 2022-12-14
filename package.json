@@ -2,7 +2,7 @@
   "name": "fast-otp",
   "version": "1.20.0",
   "description": "An OTP (one-time password) package is a software or hardware solution that provides tools and infrastructure for implementing OTP-based authentication. OTPs are unique, time-limited codes that are used to protect online accounts and sensitive information. OTP packages typically include a server component for generating and verifying OTPs, as well as a client component for sending and receiving the codes. These packages help organizations and individuals securely protect their online assets and sensitive information.",
-  "main": "otp.js",
+  "main": "index.js",
   "files": [
     "LICENSE",
     "Readme.md",
