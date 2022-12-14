@@ -5,6 +5,7 @@
   "main": "index.js",
   "files": [
     "LICENSE",
+    "./lib/otp",
     "Readme.md",
     "otp.js"
   ],
