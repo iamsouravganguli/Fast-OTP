@@ -5,6 +5,8 @@
 # How to use 🤔
 
 ## Installation
+Why you should use this package? 
+ans> because it's lightweight and easy to use.
 
 Install fast-otp with npm
 
