@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/iamsouravganguli/Fast-OTP/issues"
   },
-  "homepage": "https://github.com/iamsouravganguli/Fast-OTP#readme"
+  "homepage": "https://github.com/iamsouravganguli/Fast-OTP#readme",
+  "dependencies": {
+    "axios": "^1.2.1"
+  }
 }

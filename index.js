@@ -1,5 +1,8 @@
 const otpGen = require('./lib/otp');
+const sms = require('./lib/gatewayClass');
 
-// console.log(otpGen(10));
 
-module.exports = otpGen;
+module.exports = {
+    otpGen,
+    sms
+}
